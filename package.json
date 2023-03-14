@@ -2,12 +2,23 @@
   "name": "lista-de-tareas-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node listaTareas.js"
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MortyAlfGonAr/node-server.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MortyAlfGonAr/node-server/issues"
+  },
+  "homepage": "https://github.com/MortyAlfGonAr/node-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
